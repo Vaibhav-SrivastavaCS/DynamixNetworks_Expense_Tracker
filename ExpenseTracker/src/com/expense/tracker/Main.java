@@ -28,7 +28,6 @@ public class Main {
 
                     System.out.print("Enter category: ");
                     String category = scanner.nextLine();
-
                     service.addIncome(amount, category);
                 }
                 case 2 -> {
